@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # load the model from disk
-model = joblib.load('model.pkl')
+model = joblib.load('model3.pkl')
 
 app = Flask(__name__)
 
