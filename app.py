@@ -1,6 +1,7 @@
 from flask import Flask, request,jsonify
 import joblib
 import numpy as np
+# from sklearn.linear_model import LinearRegression
 
 # load the model from disk
 model = joblib.load('model3.pkl')
