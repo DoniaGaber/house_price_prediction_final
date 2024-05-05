@@ -32,6 +32,6 @@ def prediction():
         return jsonify({'error':str(e)})
 
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     # Run the Flask application in debug mode
     app.run(debug=True)
